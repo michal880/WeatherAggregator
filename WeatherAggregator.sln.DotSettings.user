@@ -1,0 +1,13 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ATask_00601_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FUsers_003FXPS_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F53e6ca45b2ab48c69c9246eefb4c55c8c90938_003Ff5_003F529681af_003FTask_00601_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=05d392d8_002D302a_002D48af_002D9eae_002Dda46e84f0c6e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetForecastAsync_ReturnsForecast_ForKnownCity" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::F18C927C-B098-4BFA-8E50-F77C5B067678::net8.0::WeatherAggregator.Tests.Integration.OpenMeteoProviderTests.GetForecastAsync_ReturnsForecast_ForKnownCity&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::F18C927C-B098-4BFA-8E50-F77C5B067678::net8.0::WeatherAggregator.Tests.Integration.WeatherComProviderTests.GetForecastAsync_ReturnsForecast_ForKnownCity&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::F18C927C-B098-4BFA-8E50-F77C5B067678::net8.0::WeatherAggregator.Tests.Integration.Providers.AccuWeatherProviderTests.GetForecastAsync_ReturnsForecast_ForKnownCity&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;F18C927C-B098-4BFA-8E50-F77C5B067678/d:Providers/f:WeatherComProviderTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;F18C927C-B098-4BFA-8E50-F77C5B067678/d:Providers/f:XWeatherProviderTests.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

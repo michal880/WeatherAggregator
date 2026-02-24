@@ -1,0 +1,104 @@
+﻿  {
+  "info": {
+    "_postman_id": "b3c1c1e9-3d0d-4fd0-9e2a-7a8f8dbd7d3a",
+    "name": "WeatherAggregator",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://app-260223204926.azurewebsites.net/"
+    },
+    {
+      "key": "apiVersion",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Forecasts",
+      "item": [
+        {
+          "name": "Get forecasts (v1)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/v{{apiVersion}}/forecasts?date=2026-02-25&city=London&country=United%20Kingdom",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "v{{apiVersion}}",
+                "forecasts"
+              ],
+              "query": [
+                {
+                  "key": "date",
+                  "value": "2026-02-25"
+                },
+                {
+                  "key": "city",
+                  "value": "London"
+                },
+                {
+                  "key": "country",
+                  "value": "United Kingdom"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Health",
+      "item": [
+        {
+          "name": "Live",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/health/live",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "health",
+                "live"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Ready",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/health/ready",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "health",
+                "ready"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
+

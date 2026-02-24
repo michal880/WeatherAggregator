@@ -1,0 +1,28 @@
+﻿<Project>
+  <!--
+    Global MSBuild settings for all projects under this repo.
+    This file is automatically imported by MSBuild.
+  -->
+  <PropertyGroup>
+    <!-- Keep builds deterministic across machines -->
+    <Deterministic>true</Deterministic>
+
+    <!-- Prefer fully-qualified analyzer output -->
+    <Features>strict</Features>
+
+    <!-- Code quality defaults -->
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Enable .NET analyzers with a reasonable default level -->
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+
+    <!-- Don't fail the build on warnings by default; keep it dev-friendly. -->
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+
+    <!-- Make builds consistent in CI; doesn't affect local debugging. -->
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+</Project>
+
